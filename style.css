@@ -4,12 +4,11 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Germania One', cursive;
-    font-family: 'PT Serif', serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Germania One', cursive;
+    font-family: 'PT Serif', serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
