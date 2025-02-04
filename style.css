@@ -31,6 +31,13 @@ h1, h2 {
     transition: background-color 0.3s;
 }
 
+#buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px; /* Optional: Adds space above the buttons */
+}
+
 header {
     background: #0077cc;
     color: white;
