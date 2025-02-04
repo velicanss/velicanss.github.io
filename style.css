@@ -4,6 +4,8 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Germania One', cursive;
+    font-family: 'PT Serif', serif;
 }
 
 body {
