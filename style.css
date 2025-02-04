@@ -23,10 +23,10 @@ h1, h2 {
     background-color: #0077cc;
     color: #4169E1;
     border: none;
-    padding: 15px 15px;
+    padding: 15px 20px;
     font-family: 'PT Serif', serif;
     font-size: 16px;
-    border-radius: 50%;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
