@@ -21,9 +21,9 @@ h1, h2 {
 
 .my-button {
     background-color: #0077cc;
-    color: #4169E1;
+    color: white;
     border: none;
-    padding: 15px 20px;
+    padding: 10px 15px;
     font-family: 'PT Serif', serif;
     font-size: 16px;
     border-radius: 5px;
