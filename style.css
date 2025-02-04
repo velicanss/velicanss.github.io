@@ -24,6 +24,7 @@ h1, h2 {
     color: #4169E1;
     border: none;
     padding: 15px 15px;
+    font-family: 'PT Serif', serif;
     font-size: 16px;
     border-radius: 50%;
     cursor: pointer;
