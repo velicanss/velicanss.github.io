@@ -44,7 +44,7 @@ h1, h2 {
 
 header {
     position: relative;
-    height: 200px; /* Adjust as needed */
+    height: 210px; /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
