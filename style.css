@@ -68,8 +68,8 @@ header {
 }
 
 .header-nav {
-    position: absolute;
-    top: 10px;
+    position: center;
+    top: 100px;
     display: flex;
     gap: 20px;
 }
