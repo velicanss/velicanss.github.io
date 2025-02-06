@@ -10,13 +10,40 @@ body {
     font-family: 'PT Serif', serif; /* Default font for body */
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF;
-    color: #333;
+    background-color: #404364;
+    color: #EBF5EE;
 }
 
 h1, h2 {
     text-align: center;
     font-family: 'Germania One'
+}
+
+.series-button {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the images */
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.series-button a {
+    position: relative;
+    display: inline-block;
+}
+
+.series-button img {
+    width: 200px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.series-button a:hover img {
+    opacity: 0.7; /* Darken effect on hover */
 }
 
 .my-button {
@@ -32,19 +59,20 @@ h1, h2 {
 }
 
 #about {
-    padding: 40px;
+    padding: 20px 0px;
     background-color: #FFFFFF;  /* Background color for section */
     text-align: center;  /* Center text */
+    background: #282A3E;
 }
 
 .content-wrapper {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;  /* Center content */
 }
 
 header {
     position: relative;
-    height: 210px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,13 +93,16 @@ header {
     position: relative;
     z-index: 1;
     color: white;
+    padding: 20px 0;
 }
 
 .header-nav {
     position: center;
-    top: 100px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .header-nav a {
@@ -94,7 +125,7 @@ nav a {
 section {
     padding: 40px;
     margin: 20px;
-    background: white;
+    background: #282A3E;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -107,4 +138,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
