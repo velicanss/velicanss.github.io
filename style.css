@@ -155,6 +155,10 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#contact {
+	text-align: center;
+}
+
 /* Push the footer to the bottom */
 footer {
     margin-top: auto;
