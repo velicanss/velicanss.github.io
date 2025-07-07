@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #fff0e6;
+}
+
+#zine-reader {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDF Zine Flip</title>
+  <link rel="stylesheet" href="css/flipbook-style.css">
+</head>
+<body>
+  <div id="zine-reader"></div>
+
+  <script src="js/page-flip.browser.js"></script>
+  <script>
+    // Set the path to the PDF worker (so the plugin doesn't scream)
+    window.PDFJS = { workerSrc: 'js/pdf.worker.min.js' };
+
+    const pageFlip = new St.PageFlip(document.getElementById("zine-reader"), {
+      width: 600,
+      height: 800,
+      size: 'stretch',
+      maxShadowOpacity: 0.5,
+      showCover: true,
+      mobileScrollSupport: false,
+    });
+
+    pageFlip.loadFromPDF("books/zine1.pdf");
+  </script>
+</body>
+</html>
